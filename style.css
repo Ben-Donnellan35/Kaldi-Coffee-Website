@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Pacifico&display=swap');
+
+h1 {
+    font-size: 3em;
+    color: #4a2c12;
+    font-family: Pacifico
+}
+
+h2 {
+    font-size: 2em;
+    color: #4a2c12;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-size: 2em;
+    font-family: Courgette;
+    background-color: #f5e5d7;
+}
+
+p {
+    color: #4a2c12;
+}
+
+.frontpage {
+    font-family: Caveat;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navitem {
+    display: flex;
+    font-size: 24px;
+    border: solid 3px #4a2c12;
+    width: 20%;
+    color: #4a2c12;
+    background-color: #d1b59d;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menuoptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuitem {
+    display: flex;
+    font-size: 24px;
+    width: 25%;
+    color: #4a2c12;
+    justify-content: space-evenly;
+}
+
+.menupic {
+    display: flex;
+    width: 25%;
+    color: #4a2c12;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navitem:visited {
+    color: #4a2c12;
+}
+
+a:visited {
+    color: #4a2c12;
+    text-decoration: none;
+}
+
+a {
+    color: #4a2c12;
+    text-decoration: none;
+}
+
+.homepage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepic {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50%;
+}
