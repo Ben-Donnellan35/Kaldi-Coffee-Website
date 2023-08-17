@@ -24,6 +24,11 @@ p {
 
 .frontpage {
     font-family: Caveat;
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .navbar {
@@ -91,4 +96,11 @@ a {
     display: flex;
     justify-content: space-evenly;
     border-radius: 50%;
+}
+
+.menutext {
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
